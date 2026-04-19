@@ -1132,7 +1132,7 @@ ul { list-style: none; }
 
 /* ===== FOOTER ===== */
 .footer {
-    background: var(--text);
+    background: #1E3A5F;  /* Тёмно-синий как в преимуществах */
     color: var(--white);
     padding: 60px 0 30px;
 }
@@ -1146,51 +1146,25 @@ ul { list-style: none; }
     border: 1px solid rgba(40, 167, 69, 0.2);
 }
 
-.footer-cta h3 { font-size: 24px; margin-bottom: 8px; }
-.footer-cta p { color: rgba(255, 255, 255, 0.8); margin-bottom: 24px; }
-
-.footer-form {
-    display: flex;
-    gap: 12px;
-    max-width: 600px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: center;
+.footer-cta h3 { 
+    font-size: 24px; 
+    margin-bottom: 8px;
+    color: var(--white);  /* Белый цвет */
 }
 
-.footer-form input, .footer-form select {
-    padding: 14px 20px;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    background: rgba(255, 255, 255, 0.1);
+.footer-cta p { 
+    color: rgba(255, 255, 255, 0.8); 
+    margin-bottom: 24px; 
+}
+
+/* Логотип в футере белый */
+.footer-about .logo-text {
     color: var(--white);
-    font-size: 14px;
-    flex: 1;
-    min-width: 180px;
-    outline: none;
 }
 
-.footer-form input::placeholder { color: rgba(255, 255, 255, 0.5); }
-
-.footer-form button {
-    padding: 14px 32px;
-    border-radius: 10px;
-    border: none;
-    background: var(--green);
+.footer-about .logo-green,
+.footer-about .logo-blue {
     color: var(--white);
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: var(--transition);
-}
-
-.footer-form button:hover { background: var(--green-light); transform: translateY(-2px); }
-
-.footer-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 40px;
 }
 
 .footer-about p {
@@ -1204,7 +1178,7 @@ ul { list-style: none; }
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 16px;
-    color: var(--green);
+    color: var(--green);  /* Заголовки колонок зелёные */
 }
 
 .footer-col a {
@@ -1215,7 +1189,9 @@ ul { list-style: none; }
     transition: var(--transition);
 }
 
-.footer-col a:hover { color: var(--white); }
+.footer-col a:hover { 
+    color: var(--white); 
+}
 
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -1227,15 +1203,25 @@ ul { list-style: none; }
     gap: 16px;
 }
 
-.footer-bottom p { color: rgba(255, 255, 255, 0.4); font-size: 13px; }
+.footer-bottom p { 
+    color: rgba(255, 255, 255, 0.4); 
+    font-size: 13px; 
+}
 
-.footer-legal { display: flex; gap: 20px; }
+.footer-legal { 
+    display: flex; 
+    gap: 20px; 
+}
+
 .footer-legal a {
     color: rgba(255, 255, 255, 0.4);
     font-size: 13px;
     transition: var(--transition);
 }
-.footer-legal a:hover { color: var(--white); }
+
+.footer-legal a:hover { 
+    color: var(--white); 
+}
 
 /* ===== POPUP ===== */
 .popup-overlay {
