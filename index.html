@@ -123,19 +123,21 @@
                     </div>
                     
                     <div class="hero-image">
-                        <!-- Официальный сертификат над видео -->
-                        <div class="hero-float hero-float-top">
-                            <i class="ti ti-certificate"></i>
-                            <span>Официальный сертификат</span>
-                        </div>
-                        
                         <!-- Видео с RuTube -->
                         <div class="hero-video-wrapper">
                             <iframe src="https://rutube.ru/play/embed/0555a0aa2d6d6c56c90eacc433675cd5/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                         </div>
                         
+                        <!-- Официальный сертификат над видео -->
+                        <div class="hero-certificate-above">
+                            <div class="official-cert-badge">
+                                <i class="ti ti-certificate"></i>
+                                <span>Официальный сертификат</span>
+                            </div>
+                        </div>
+                        
                         <!-- Статистика под видео -->
-                        <div class="hero-stats">
+                        <div class="hero-stats-below">
                             <div class="hero-stat">
                                 <div class="hero-stat-number">8+</div>
                                 <div class="hero-stat-label">Лет опыта</div>
@@ -493,55 +495,88 @@
             </div>
         </section>
 
-        <!-- ===== ПОЧЕМУ МЫ ===== -->
-        <section class="section why-us" id="why">
+        <!-- ===== ПРЕИМУЩЕСТВА ===== -->
+        <section class="section advantages" id="why">
             <div class="container">
                 <div class="section-header animate-on-scroll">
-                    <div class="section-badge"><i class="ti ti-sparkles"></i> Почему мы</div>
-                    <h2>Факты, а не обещания</h2>
+                    <div class="section-badge">
+                        <i class="ti ti-sparkles"></i> Преимущества
+                    </div>
+                    <h2>Почему выбирают МУДРО</h2>
                     <p>Не обещания — а факты, которые работают на результат</p>
                 </div>
                 
-                <div class="why-grid">
-                    <div class="why-card animate-on-scroll">
-                        <div class="why-icon"><i class="ti ti-license"></i></div>
-                        <h3>Официальная лицензия</h3>
-                        <p>Работаем по лицензии Минобразования № Л035-01218-23/01091451</p>
+                <div class="advantages-grid">
+                    <!-- Карточка 1 -->
+                    <div class="advantage-card animate-on-scroll">
+                        <div class="advantage-icon">
+                            <i class="ti ti-license"></i>
+                        </div>
+                        <h3>Лицензия и официальный статус</h3>
+                        <p>Работаем по лицензии на образовательную деятельность. Официальный договор и сертификат по окончании</p>
                     </div>
-                    <div class="why-card animate-on-scroll">
-                        <div class="why-icon"><i class="ti ti-receipt"></i></div>
+
+                    <!-- Карточка 2 -->
+                    <div class="advantage-card animate-on-scroll">
+                        <div class="advantage-icon">
+                            <i class="ti ti-receipt"></i>
+                        </div>
                         <h3>Налоговый вычет 13%</h3>
-                        <p>Верните часть расходов на обучение через налоговый вычет</p>
+                        <p>Официальный статус школы позволяет получить налоговый вычет на обучение. Вернём часть расходов</p>
                     </div>
-                    <div class="why-card animate-on-scroll">
-                        <div class="why-icon"><i class="ti ti-message"></i></div>
-                        <h3>80% практики</h3>
-                        <p>Не лекции, а живое общение. Говорите с первого занятия</p>
+
+                    <!-- Карточка 3 -->
+                    <div class="advantage-card animate-on-scroll">
+                        <div class="advantage-icon">
+                            <i class="ti ti-message-circle-2"></i>
+                        </div>
+                        <h3>80% практики на уроке</h3>
+                        <p>Не лекции, а живое общение. Говорите с первого занятия — это тайминг каждого урока</p>
                     </div>
-                    <div class="why-card animate-on-scroll">
-                        <div class="why-icon"><i class="ti ti-target"></i></div>
+
+                    <!-- Карточка 4 -->
+                    <div class="advantage-card animate-on-scroll">
+                        <div class="advantage-icon">
+                            <i class="ti ti-target"></i>
+                        </div>
                         <h3>Индивидуальный план</h3>
-                        <p>Программа под цель ученика — не шаблон, а маршрут к результату</p>
+                        <p>Программа под цель ученика — не шаблон, а персональный маршрут к результату</p>
                     </div>
-                    <div class="why-card animate-on-scroll">
-                        <div class="why-icon"><i class="ti ti-gamepad"></i></div>
+
+                    <!-- Карточка 5 -->
+                    <div class="advantage-card animate-on-scroll">
+                        <div class="advantage-icon">
+                            <i class="ti ti-gamepad"></i>
+                        </div>
                         <h3>Интерактивные методики</h3>
-                        <p>TBL, CLIL, TPR, игровые технологии — учимся через действие</p>
+                        <p>TBL, CLIL, TPR, игровые технологии — учимся через действие, а не зубрёжку</p>
                     </div>
-                    <div class="why-card animate-on-scroll">
-                        <div class="why-icon"><i class="ti ti-laptop"></i></div>
+
+                    <!-- Карточка 6 -->
+                    <div class="advantage-card animate-on-scroll">
+                        <div class="advantage-icon">
+                            <i class="ti ti-laptop"></i>
+                        </div>
                         <h3>Онлайн и офлайн</h3>
-                        <p>Группы и индивидуально, очно в Туапсе или онлайн из любой точки</p>
+                        <p>Группы и индивидуально, очно в Туапсе или онлайн из любой точки мира</p>
                     </div>
-                    <div class="why-card animate-on-scroll">
-                        <div class="why-icon"><i class="ti ti-home"></i></div>
+
+                    <!-- Карточка 7 -->
+                    <div class="advantage-card animate-on-scroll">
+                        <div class="advantage-icon">
+                            <i class="ti ti-home-heart"></i>
+                        </div>
                         <h3>Комфорт и безопасность</h3>
-                        <p>Чистые классы, удобная мебель, питьевая вода, санузел</p>
+                        <p>Чистые классы, удобная мебель, питьевая вода, санузел — забота о каждом</p>
                     </div>
-                    <div class="why-card animate-on-scroll">
-                        <div class="why-icon"><i class="ti ti-certificate"></i></div>
+
+                    <!-- Карточка 8 -->
+                    <div class="advantage-card animate-on-scroll">
+                        <div class="advantage-icon">
+                            <i class="ti ti-certificate"></i>
+                        </div>
                         <h3>Сертификат по окончании</h3>
-                        <p>Официальный документ о прохождении курса и уровне знаний</p>
+                        <p>Официальный документ о прохождении курса. Подтверждение уровня для работы и учёбы</p>
                     </div>
                 </div>
             </div>
@@ -556,22 +591,17 @@
                     <p>Настоящие уроки, настоящие эмоции, настоящий результат</p>
                 </div>
                 
-                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 900px; margin: 0 auto;">
-                    <!-- Видео о школе -->
-                    <a href="https://vk.com/video-211482634_456239169" target="_blank" class="video-wrapper animate-on-scroll">
-                        <div class="video-placeholder">
-                            <div class="play-btn"><i class="ti ti-player-play-filled"></i></div>
-                            <p>▶ Видео о школе МУДРО</p>
-                        </div>
-                    </a>
-                    
-                    <!-- Виртуальный тур -->
-                    <a href="https://yandex.ru/maps/1058/tuapse/?l=stv%2Csta&ll=39.079567%2C44.098419&mode=poi&panorama%5Bdirection%5D=314.918249%2C-2.698467&panorama%5Bfull%5D=true&panorama%5Bpoint%5D=39.079754%2C44.098480&panorama%5Bspan%5D=116.810992%2C60.000000&poi%5Bpoint%5D=39.079566%2C44.098445&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D191175697645&utm_source=share&z=20" target="_blank" class="video-wrapper animate-on-scroll" style="background: linear-gradient(135deg, #28A745, #205EDC);">
-                        <div class="video-placeholder">
-                            <div class="play-btn"><i class="ti ti-360-view"></i></div>
-                            <p>🔄 Виртуальный тур по школе</p>
-                        </div>
-                    </a>
+                <div class="video-container-single">
+                    <div class="video-wrapper animate-on-scroll">
+                        <iframe 
+                            src="https://rutube.ru/play/embed/0555a0aa2d6d6c56c90eacc433675cd5/" 
+                            frameborder="0" 
+                            allow="clipboard-write; autoplay" 
+                            webkitallowfullscreen 
+                            mozallowfullscreen 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
                 </div>
             </div>
         </section>
@@ -694,7 +724,6 @@
                         <div class="calc-result-item"><span>Ожидаемый результат</span><strong id="calcOutcome">—</strong></div>
                         <div class="calc-result-actions">
                             <button class="btn btn-primary" data-action="open-form"><i class="ti ti-pencil"></i> Записаться на диагностику</button>
-                            <button class="btn btn-secondary" onclick="alert('Программа курса будет отправлена на ваш email после записи.')"><i class="ti ti-download"></i> Скачать программу</button>
                         </div>
                     </div>
                 </div>
