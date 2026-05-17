@@ -1446,3 +1446,61 @@ ul { list-style: none; }
     .hero-stat-number { font-size: 22px; }
     .hero-stats { flex-direction: column; gap: 12px; }
 }
+/* ===== БОЛЬШАЯ КНОПКА ЛЕТНЯЯ ШКОЛА ===== */
+.summer-school-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #FF6B35 0%, #FF8C42 100%);
+    color: white;
+    padding: 24px 48px;
+    border-radius: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 30px auto;
+    max-width: 500px;
+    box-shadow: 0 8px 24px rgba(255, 107, 53, 0.4);
+    transition: all 0.3s ease;
+    animation: pulse-glow 2s infinite;
+}
+
+.summer-school-btn:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 12px 32px rgba(255, 107, 53, 0.6);
+    background: linear-gradient(135deg, #FF8C42 0%, #FF6B35 100%);
+}
+
+.summer-school-btn i {
+    font-size: 36px;
+    animation: rotate-sun 4s linear infinite;
+}
+
+@keyframes pulse-glow {
+    0%, 100% {
+        box-shadow: 0 8px 24px rgba(255, 107, 53, 0.4);
+    }
+    50% {
+        box-shadow: 0 8px 32px rgba(255, 107, 53, 0.7);
+    }
+}
+
+@keyframes rotate-sun {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 768px) {
+    .summer-school-btn {
+        padding: 20px 32px;
+        font-size: 22px;
+        max-width: 100%;
+    }
+    .summer-school-btn i {
+        font-size: 28px;
+    }
+}
