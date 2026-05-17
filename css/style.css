@@ -1447,8 +1447,15 @@ ul { list-style: none; }
     .hero-stats { flex-direction: column; gap: 12px; }
 }
 /* ===== БОЛЬШАЯ КНОПКА ЛЕТНЯЯ ШКОЛА ===== */
-.summer-school-btn {
+.summer-school-btn-wrapper {
     display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.summer-school-btn {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 12px;
@@ -1462,8 +1469,6 @@ ul { list-style: none; }
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 30px auto;
-    max-width: 500px;
     box-shadow: 0 8px 24px rgba(255, 107, 53, 0.4);
     transition: all 0.3s ease;
     animation: pulse-glow 2s infinite;
@@ -1495,10 +1500,14 @@ ul { list-style: none; }
 }
 
 @media (max-width: 768px) {
+    .summer-school-btn-wrapper {
+        margin: 20px 0;
+    }
     .summer-school-btn {
         padding: 20px 32px;
         font-size: 22px;
-        max-width: 100%;
+        width: 100%;
+        justify-content: center;
     }
     .summer-school-btn i {
         font-size: 28px;
