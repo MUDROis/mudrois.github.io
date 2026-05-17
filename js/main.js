@@ -119,22 +119,22 @@ document.addEventListener('DOMContentLoaded', () => {
         const result = document.getElementById('calcResult');
         result.classList.add('visible');
         
-        // Простая логика расчёта
+        // Простая логика расчёта на основе цен сайта
         let duration, price, outcome;
         
         if (calcData.time.includes('Интенсив')) {
             duration = '2 месяца';
-            price = 'от 12 000 ₽ за курс';
+            price = '25 000 ₽ за курс';
             outcome = calcData.level === 'С нуля' ? 'Базовый уровень A2' : 
                      calcData.level === 'Знаю основы' ? 'Уровень B1' : 'Уровень B2';
         } else if (calcData.time.includes('3 раза')) {
             duration = '4 месяца';
-            price = 'от 7 500 ₽/мес';
+            price = 'от 9 000 ₽/мес';
             outcome = calcData.level === 'С нуля' ? 'Уровень A2, 500+ слов' : 
                      calcData.level === 'Знаю основы' ? 'Уровень B1, разговорная речь' : 'Уверенный B2';
         } else {
             duration = '6 месяцев';
-            price = 'от 5 000 ₽/мес';
+            price = 'от 6 000 ₽/мес';
             outcome = calcData.level === 'С нуля' ? 'Уровень A1–A2' : 
                      calcData.level === 'Знаю основы' ? 'Уровень B1' : 'Уверенный B2';
         }
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Корректировка под цель
         if (calcData.goal === 'Подтянуть школу') {
             duration = '3 месяца';
-            price = 'от 4 000 ₽/мес';
+            price = 'от 9 200 ₽/мес';
             outcome = 'Повышение успеваемости, устранение пробелов';
         } else if (calcData.goal === 'Сдать экзамен') {
             outcome += ' + подготовка к формату экзамена';
