@@ -1177,7 +1177,33 @@ ul { list-style: none; }
 
 .footer-cta p { 
     color: rgba(255, 255, 255, 0.8); 
-    margin-bottom: 24px; 
+    margin-bottom: 32px; 
+}
+
+/* Кнопка в футере - крупная и по центру */
+.footer-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 18px 48px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: var(--radius);
+    background: var(--blue);
+    color: var(--white);
+    transition: var(--transition);
+    margin: 0 auto;
+}
+
+.footer-btn:hover {
+    background: var(--blue-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(32, 94, 220, 0.3);
+}
+
+.footer-btn i {
+    font-size: 20px;
 }
 
 /* Логотип в футере белый */
@@ -1432,7 +1458,6 @@ ul { list-style: none; }
     .calc-container { padding: 24px; }
     .popup-body, .popup-header { padding-left: 20px; padding-right: 20px; }
     
-    .footer-form { flex-direction: column; }
     .hero-buttons { flex-direction: column; }
     .hero-buttons .btn { width: 100%; justify-content: center; }
 }
