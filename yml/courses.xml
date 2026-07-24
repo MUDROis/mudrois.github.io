@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-07-24">
+<shop>
+    <name>Интерактивная школа МУДРО</name>
+    <company>ИП Громова Анна Александровна</company>
+    <url>https://интерактивнаяшкола.рф/</url>
+    <email>mudro.is@yandex.ru</email>
+    <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+    <currencies>
+        <currency id="RUR" rate="1"/>
+    </currencies>
+    <!-- Блок categories УДАЛЁН – он не нужен для фидов Образование -->
+    <offers>
+        <!-- Английский групповой -->
+        <offer id="eng-group">
+            <name>Английский язык — групповые занятия</name>
+            <description>Английский для детей с 3 лет и взрослых. Мини-группы до 6 человек.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Групповой</param>
+        </offer>
+
+        <!-- Английский индивидуальный -->
+        <offer id="eng-individual">
+            <name>Английский язык — индивидуальные занятия</name>
+            <description>Персональные уроки с преподавателем.</description>
+            <price>1150</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Индивидуальный</param>
+        </offer>
+
+        <!-- ОГЭ -->
+        <offer id="eng-oge">
+            <name>Подготовка к ОГЭ по английскому</name>
+            <description>Интенсивная подготовка к ОГЭ.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">2</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Групповой</param>
+        </offer>
+
+        <!-- ЕГЭ -->
+        <offer id="eng-ege">
+            <name>Подготовка к ЕГЭ по английскому</name>
+            <description>Интенсивная подготовка к ЕГЭ.</description>
+            <price>1150</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">2</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Индивидуальный</param>
+        </offer>
+
+        <!-- Cambridge -->
+        <offer id="eng-cambridge">
+            <name>Подготовка к Cambridge (KET, PET, FCE, CAE)</name>
+            <description>Подготовка к международным экзаменам Cambridge.</description>
+            <price>1150</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">3</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Индивидуальный</param>
+        </offer>
+
+        <!-- IELTS -->
+        <offer id="eng-ielts">
+            <name>Подготовка к IELTS</name>
+            <description>Подготовка к IELTS.</description>
+            <price>1150</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">3</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Индивидуальный</param>
+        </offer>
+
+        <!-- TOEFL -->
+        <offer id="eng-toefl">
+            <name>Подготовка к TOEFL</name>
+            <description>Подготовка к TOEFL.</description>
+            <price>1150</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">3</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Индивидуальный</param>
+        </offer>
+
+        <!-- Немецкий -->
+        <offer id="de-group">
+            <name>Немецкий язык — групповые занятия</name>
+            <description>Немецкий для детей и взрослых.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20002</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Групповой</param>
+        </offer>
+
+        <!-- Французский -->
+        <offer id="fr-group">
+            <name>Французский язык — групповые занятия</name>
+            <description>Французский для детей и взрослых.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20003</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Групповой</param>
+        </offer>
+
+        <!-- DELF -->
+        <offer id="fr-delf">
+            <name>Подготовка к DELF</name>
+            <description>Подготовка к DELF.</description>
+            <price>1150</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20003</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">2</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Индивидуальный</param>
+        </offer>
+
+        <!-- Испанский -->
+        <offer id="es-group">
+            <name>Испанский язык — групповые занятия</name>
+            <description>Испанский для детей и взрослых.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20004</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Групповой</param>
+        </offer>
+
+        <!-- Вайбкодинг -->
+        <offer id="vibecoding">
+            <name>Вайбкодинг</name>
+            <description>Создание сайтов без кода.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>101</categoryId> <!-- Веб-разработка -->
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Групповой</param>
+        </offer>
+
+        <!-- Русский язык -->
+        <offer id="russian">
+            <name>Русский язык</name>
+            <description>Русский язык для школьников.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>10001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Групповой</param>
+        </offer>
+
+        <!-- Математика -->
+        <offer id="math">
+            <name>Математика</name>
+            <description>Математика для школьников.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>10002</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Групповой</param>
+        </offer>
+
+        <!-- Диагностика -->
+        <offer id="diagnostic">
+            <name>Диагностика уровня</name>
+            <description>Определение уровня языка.</description>
+            <price>700</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId> <!-- Можно отнести к английскому -->
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="день">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="план">Диагностика</param>
+        </offer>
+    </offers>
+</shop>
+</yml_catalog>
