@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-07-28">
+<shop>
+    <name>Интерактивная школа МУДРО</name>
+    <company>ИП Громова Анна Александровна</company>
+    <url>https://интерактивнаяшкола.рф/</url>
+    <email>mudro.is@yandex.ru</email>
+    <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+    <currencies>
+        <currency id="RUR" rate="1"/>
+    </currencies>
+    <!-- Блок categories отсутствует — он не нужен для фидов типа "Образование" -->
+    <offers>
+
+        <!-- 1. Английский групповой -->
+        <offer id="eng-group">
+            <name>Английский язык — групповые занятия</name>
+            <description>Английский для детей с 3 лет и взрослых. Мини-группы до 6 человек.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Вводный модуль" hours="4" order="1">Знакомство с основами языка, фонетика, базовые фразы и правила чтения.</param>
+            <param name="План" unit="Основной модуль" hours="12" order="2">Грамматика (времена, артикли, предлоги), лексика по темам, разговорная практика.</param>
+            <param name="План" unit="Итоговый модуль" hours="4" order="3">Закрепление материала, итоговое тестирование, работа над ошибками.</param>
+        </offer>
+
+        <!-- 2. Английский индивидуальный -->
+        <offer id="eng-individual">
+            <name>Английский язык — индивидуальные занятия</name>
+            <description>Персональные уроки с преподавателем.</description>
+            <price>1150</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Диагностика и постановка целей" hours="2" order="1">Определение уровня, выявление пробелов, составление индивидуального плана.</param>
+            <param name="План" unit="Интенсивная работа" hours="14" order="2">Проработка слабых мест, отработка навыков по запросу ученика.</param>
+            <param name="План" unit="Контроль и закрепление" hours="4" order="3">Промежуточные срезы, итоговое тестирование, рекомендации.</param>
+        </offer>
+
+        <!-- 3. ОГЭ -->
+        <offer id="eng-oge">
+            <name>Подготовка к ОГЭ по английскому</name>
+            <description>Интенсивная подготовка к ОГЭ.</description>
+            <price>1300</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">2</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Знакомство с форматом" hours="4" order="1">Структура экзамена, критерии оценивания, стратегии выполнения.</param>
+            <param name="План" unit="Тренировка по разделам" hours="16" order="2">Аудирование, чтение, лексика/грамматика, письмо, говорение.</param>
+            <param name="План" unit="Практика и разбор" hours="8" order="3">Решение типовых вариантов, разбор ошибок, отработка слабых мест.</param>
+        </offer>
+
+        <!-- 4. ЕГЭ -->
+        <offer id="eng-ege">
+            <name>Подготовка к ЕГЭ по английскому</name>
+            <description>Интенсивная подготовка к ЕГЭ.</description>
+            <price>1500</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">2</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Анализ требований" hours="4" order="1">Разбор демоверсии, критерии, стратегии для высокого балла.</param>
+            <param name="План" unit="Интенсив по всем разделам" hours="18" order="2">Аудирование, чтение, грамматика, лексика, письменная часть, устная часть.</param>
+            <param name="План" unit="Полноценные тренировочные экзамены" hours="8" order="3">Выполнение вариантов в формате ЕГЭ, детальный разбор ошибок.</param>
+        </offer>
+
+        <!-- 5. Cambridge -->
+        <offer id="eng-cambridge">
+            <name>Подготовка к Cambridge (KET, PET, FCE, CAE)</name>
+            <description>Подготовка к международным экзаменам Cambridge.</description>
+            <price>1500</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">3</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Ориентация на уровень" hours="6" order="1">Определение нужного экзамена, знакомство с заданиями и критериями.</param>
+            <param name="План" unit="Систематическая подготовка" hours="24" order="2">Работа над всеми разделами (Reading, Writing, Use of English, Listening, Speaking).</param>
+            <param name="План" unit="Финальная отработка" hours="12" order="3">Пробные экзамены, разбор ошибок, интенсив перед экзаменом.</param>
+        </offer>
+
+        <!-- 6. IELTS -->
+        <offer id="eng-ielts">
+            <name>Подготовка к IELTS</name>
+            <description>Подготовка к IELTS.</description>
+            <price>1500</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">3</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Введение в IELTS" hours="6" order="1">Структура экзамена (Academic/General), критерии оценки, стратегии.</param>
+            <param name="План" unit="Интенсив по навыкам" hours="24" order="2">Аудирование, чтение, письмо (Task 1 и 2), говорение (Part 1-3).</param>
+            <param name="План" unit="Полноценные mock-тесты" hours="12" order="3">Выполнение полных вариантов в условиях экзамена, разбор и коррекция.</param>
+        </offer>
+
+        <!-- 7. TOEFL -->
+        <offer id="eng-toefl">
+            <name>Подготовка к TOEFL</name>
+            <description>Подготовка к TOEFL.</description>
+            <price>1500</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">3</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Знакомство с TOEFL iBT" hours="6" order="1">Формат, типы заданий, система баллов, необходимый уровень.</param>
+            <param name="План" unit="Работа по секциям" hours="24" order="2">Reading, Listening, Speaking (интеграция), Writing (интеграция и самостоятельное).</param>
+            <param name="План" unit="Практика и адаптация" hours="12" order="3">Тренировочные тесты, управление временем, устранение слабых мест.</param>
+        </offer>
+
+        <!-- 8. Немецкий групповой -->
+        <offer id="de-group">
+            <name>Немецкий язык — групповые занятия</name>
+            <description>Немецкий для детей и взрослых.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20002</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Вводный курс" hours="4" order="1">Алфавит, произношение, базовые фразы и грамматические основы.</param>
+            <param name="План" unit="Основной этап" hours="12" order="2">Грамматика (артикли, склонение, времена), лексика, диалоги.</param>
+            <param name="План" unit="Закрепление" hours="4" order="3">Повторение, работа над ошибками, итоговый тест.</param>
+        </offer>
+
+        <!-- 9. Французский групповой -->
+        <offer id="fr-group">
+            <name>Французский язык — групповые занятия</name>
+            <description>Французский для детей и взрослых.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20003</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Первые шаги" hours="4" order="1">Произношение, основы чтения, знакомство с глаголами être и avoir.</param>
+            <param name="План" unit="Базовый курс" hours="12" order="2">Спряжение, артикли, предлоги, лексика по темам (семья, еда, город).</param>
+            <param name="План" unit="Итоговый модуль" hours="4" order="3">Обобщение, практика диалогов, проверочная работа.</param>
+        </offer>
+
+        <!-- 10. DELF -->
+        <offer id="fr-delf">
+            <name>Подготовка к DELF</name>
+            <description>Подготовка к DELF.</description>
+            <price>1500</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20003</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">2</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Структура DELF" hours="4" order="1">Разбор формата, уровней, критериев оценивания.</param>
+            <param name="План" unit="Тренировка по компонентам" hours="16" order="2">Аудирование, чтение, письмо, говорение — отработка каждого.</param>
+            <param name="План" unit="Моделирование экзамена" hours="8" order="3">Проведение пробных экзаменов с последующим разбором.</param>
+        </offer>
+
+        <!-- 11. Испанский групповой -->
+        <offer id="es-group">
+            <name>Испанский язык — групповые занятия</name>
+            <description>Испанский для детей и взрослых.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20004</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Начало" hours="4" order="1">Произношение, чтение, знакомство с глаголами ser и estar.</param>
+            <param name="План" unit="Продвинутый старт" hours="12" order="2">Грамматика (артикли, предлоги, времена), лексика, диалоги.</param>
+            <param name="План" unit="Завершающий этап" hours="4" order="3">Закрепление, тестирование, работа над ошибками.</param>
+        </offer>
+
+        <!-- 12. Вайбкодинг -->
+        <offer id="vibecoding">
+            <name>Вайбкодинг</name>
+            <description>Создание сайтов без кода.</description>
+            <price>9000</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>101</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Неделя 1: Знакомство и первый продукт" hours="6" order="1">Что такое вайбкодинг, настройка GitHub, VS Code, создание первой страницы.</param>
+            <param name="План" unit="Неделя 2: Данные и автоматизация" hours="6" order="2">Firebase, Git, GitHub Actions — базы данных и автоматизация.</param>
+            <param name="План" unit="Неделя 3: Завершение, безопасность и запуск" hours="6" order="3">Тестирование, SEO, безопасность, финальный проект и презентация.</param>
+        </offer>
+
+        <!-- 13. Русский язык -->
+        <offer id="russian">
+            <name>Русский язык</name>
+            <description>Русский язык для школьников.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>10001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Правописание и орфография" hours="4" order="1">Повторение правил, отработка сложных случаев.</param>
+            <param name="План" unit="Грамматика и синтаксис" hours="12" order="2">Части речи, словосочетание, предложение, пунктуация.</param>
+            <param name="План" unit="Развитие речи и итог" hours="4" order="3">Работа с текстом, изложение, сочинение, итоговое тестирование.</param>
+        </offer>
+
+        <!-- 14. Математика -->
+        <offer id="math">
+            <name>Математика</name>
+            <description>Математика для школьников.</description>
+            <price>750</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>10002</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="месяц">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Арифметика и алгебра" hours="4" order="1">Действия с числами, уравнения, неравенства.</param>
+            <param name="План" unit="Геометрия и функции" hours="12" order="2">Планиметрия, стереометрия, функции, графики.</param>
+            <param name="План" unit="Решение задач и итог" hours="4" order="3">Текстовые задачи, задачи на смекалку, итоговая контрольная.</param>
+        </offer>
+
+        <!-- 15. Диагностика уровня -->
+        <offer id="diagnostic">
+            <name>Диагностика уровня</name>
+            <description>Определение уровня языка.</description>
+            <price>700</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>20001</categoryId>
+            <url>https://интерактивнаяшкола.рф/</url>
+            <picture>https://интерактивнаяшкола.рф/logo.png</picture>
+            <param name="продолжительность" unit="день">1</param>
+            <param name="форма_обучения">очная</param>
+            <param name="План" unit="Письменное тестирование" hours="2" order="1">Грамматика, лексика, чтение, письмо для определения уровня.</param>
+            <param name="План" unit="Устное собеседование" hours="1" order="2">Беседа с преподавателем для оценки разговорных навыков.</param>
+            <param name="План" unit="Анализ результатов и рекомендации" hours="1" order="3">Подробный разбор ошибок, заключение об уровне и подбор курса.</param>
+        </offer>
+
+    </offers>
+</shop>
+</yml_catalog>
